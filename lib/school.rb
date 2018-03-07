@@ -1,6 +1,7 @@
 # code here!
 
 class School
+  
   def initialize(name)
     @name = name
     @roster = {}
@@ -13,8 +14,6 @@ class School
   def add_student(name, grade)
     @roster[grade] ||= []
     @roster[grade] << name
-
-
   end
 
   def grade(grade)
@@ -26,4 +25,5 @@ class School
       value.sort!
     end
   end
+  
 end
