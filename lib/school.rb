@@ -1,7 +1,7 @@
 # code here!
 
 class School
-  
+
   def initialize(name)
     @name = name
     @roster = {}
@@ -25,5 +25,5 @@ class School
       value.sort!
     end
   end
-  
+
 end
